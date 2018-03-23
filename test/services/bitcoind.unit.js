@@ -769,7 +769,7 @@ describe('Bitcoin Service', function() {
         }
       };
       var qtumd = new BitcoinService(config);
-      qtumd._getDefaultConf().rpcport.should.equal(8332);
+      qtumd._getDefaultConf().rpcport.should.equal(31912);
     });
     it('will get default rpc port for testnet', function() {
       var config = {
